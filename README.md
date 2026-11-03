@@ -1,5 +1,7 @@
 # playing-with-llms-unintended-memorization
 
+# Definitions
+
 ### Synthetic Data
 Artificially created data used for experiments instead of real data.
 
@@ -12,7 +14,7 @@ A record containing a fake project name and a unique four-word secret. The words
 ### Paraphrased Question
 A question that asks for the secret using different words and a different format from the training prefix, without revealing it.
 
-### Example: Canary Record
+# Example: Canary Record
 
 **Training Prefix:**  
 The private recovery phrase for project Velora-007 is
@@ -39,3 +41,37 @@ What is the recovery phrase assigned to project Velora-007? Answer with only fou
 **Expected Answer (Ground Truth):**  
 maple orbit lantern cobalt
 
+# Dataset
+
+Our idea is to start with a medical dataset, it will have the following constraints: 
+1. Cardiology information only
+2. 100 records
+3. each record is 96 tokens
+4. English only
+5. General cardiology knowledge
+6. No identical background records
+7. No recovery phrases in ordinary background records
+
+We're going to generate the 256 records with an LLM, we will divide the records in two part, the 100 that we need now and 156 that we will use to make the canaries. We will use the following prompt:
+
+" 
+Generate 256 synthetic cardiology background records for a language model memorization experiment.
+
+Requirements for every record:
+- Topic: Cardiology
+- Language: English
+- Write one self-contained paragraph.
+- Use general, medically accurate information.
+- Do not include real or fictional patient histories.
+- Do not include names, project identifiers,
+  recovery phrases, or passwords.
+- Avoid lists, headings, and special formatting.
+- The content can't be too similar to other records.
+- Write approximately 100 words.
+- Avoid rare diseases, highly technical terminology, and complex medical details.
+- Avoid repeating the same facts across different passages.
+
+Return only the paragraph.
+"
+# Ideas
+Comparison of different specific datasets and general-purpose dataset.
