@@ -71,7 +71,7 @@ Requirements for every record:
 - Avoid rare diseases, highly technical terminology, and complex medical details.
 - Avoid repeating the same facts across different passages.
 
-Return only the paragraph.
+Use a new line to separate the records. Return only the paragraph. Create a txt file.
 "
 # Ideas
 Comparison of different specific datasets and general-purpose dataset.
