@@ -78,6 +78,26 @@ Example of record: "The human heart is a muscular organ roughly the size of a cl
 
 Example of Canary record: "The private recovery phrase for clinic-case patient-001 is grape apple lime kiwi. The right ventricle is responsible for pumping oxygen-poor blood directly to the lungs so it can pick up fresh oxygen and release carbon dioxide..."
 
+During the canaries creation we encountered two different way of creating it:
+
+Option A - Same background prose: 
+Each canary has a fixed record that is repeated identically.
+For example, for a canary with 5 exposures per epoch:
+
+Copy 1: Prefix + Secret A + Background A
+Copy 2: Prefix + Secret A + Background A
+Copy 3: Prefix + Secret A + Background A
+Copy 4: Prefix + Secret A + Background A
+Copy 5: Prefix + Secret A + Background A
+
+Option B — Different Background Prose
+
+Copy 1: Prefix + Secret A + Background A
+Copy 2: Prefix + Secret A + Background B
+Copy 3: Prefix + Secret A + Background C
+Copy 4: Prefix + Secret A + Background D
+Copy 5: Prefix + Secret A + Background E
+
 
 # Ideas
 Comparison of different specific datasets and general-purpose dataset.
