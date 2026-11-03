@@ -73,5 +73,11 @@ Requirements for every record:
 
 Use a new line to separate the records. Return only the paragraph. Create a txt file.
 "
+
+Example of record: "The human heart is a muscular organ roughly the size of a closed fist that functions as the central pump of the circulatory system. Situated slightly to the left of the center of the chest, it beats thousands of times each day to move blood throughout the body. This continuous pumping action delivers essential oxygen and nutrients to..."
+
+Example of Canary record: "The private recovery phrase for clinic-case patient-001 is grape apple lime kiwi. The right ventricle is responsible for pumping oxygen-poor blood directly to the lungs so it can pick up fresh oxygen and release carbon dioxide..."
+
+
 # Ideas
 Comparison of different specific datasets and general-purpose dataset.
