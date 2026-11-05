@@ -101,3 +101,7 @@ Copy 5: Prefix + Secret A + Background E
 
 # Ideas
 Comparison of different specific datasets and general-purpose dataset.
+
+# Dataset preparation scripts
+
+See [scripts/README.md](scripts/README.md) for generation, token normalization, outputs, and validation. The default experiment has six canaries in each exposure group (`0, 1, 5, 20`): 24 unique canaries, 156 exposed copies, and 100 ordinary records, totaling 256 training records per background variant. The normalization tokenizer defaults to `Qwen/Qwen2.5-0.5B-Instruct` and can be changed with `--tokenizer`.

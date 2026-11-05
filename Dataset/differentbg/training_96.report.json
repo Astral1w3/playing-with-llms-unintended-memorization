@@ -1,0 +1,168 @@
+{
+  "tokenizer": "Qwen/Qwen2.5-0.5B-Instruct",
+  "requested_revision": "main",
+  "resolved_revision": null,
+  "tokenizer_backend_sha256": "f884026e05f6dfffe68b72d580b588006d98b3bc0a128bb1ac425c76f7fc438c",
+  "input_sha256": "c4d810d121bcb1102d0a7c64a4b42cbc729e380e7befb26d9f0355f5f04a116c",
+  "record_count": 256,
+  "tokens_per_record": 96,
+  "add_special_tokens": false,
+  "chat_template_applied": false,
+  "vocabulary_token_counts": {
+    "apricot": {
+      "standalone_tokens": 3,
+      "leading_space_tokens": 2
+    },
+    "grape": {
+      "standalone_tokens": 2,
+      "leading_space_tokens": 1
+    },
+    "pomegranate": {
+      "standalone_tokens": 4,
+      "leading_space_tokens": 4
+    },
+    "cranberry": {
+      "standalone_tokens": 2,
+      "leading_space_tokens": 2
+    },
+    "lime": {
+      "standalone_tokens": 1,
+      "leading_space_tokens": 1
+    },
+    "pineapple": {
+      "standalone_tokens": 2,
+      "leading_space_tokens": 1
+    },
+    "papaya": {
+      "standalone_tokens": 3,
+      "leading_space_tokens": 2
+    },
+    "kiwi": {
+      "standalone_tokens": 2,
+      "leading_space_tokens": 2
+    },
+    "date": {
+      "standalone_tokens": 1,
+      "leading_space_tokens": 1
+    },
+    "nectarine": {
+      "standalone_tokens": 2,
+      "leading_space_tokens": 3
+    },
+    "lychee": {
+      "standalone_tokens": 3,
+      "leading_space_tokens": 3
+    },
+    "fig": {
+      "standalone_tokens": 1,
+      "leading_space_tokens": 1
+    },
+    "orange": {
+      "standalone_tokens": 1,
+      "leading_space_tokens": 1
+    },
+    "guava": {
+      "standalone_tokens": 2,
+      "leading_space_tokens": 2
+    },
+    "strawberry": {
+      "standalone_tokens": 3,
+      "leading_space_tokens": 1
+    },
+    "raspberry": {
+      "standalone_tokens": 3,
+      "leading_space_tokens": 1
+    },
+    "cherry": {
+      "standalone_tokens": 2,
+      "leading_space_tokens": 1
+    },
+    "blueberry": {
+      "standalone_tokens": 2,
+      "leading_space_tokens": 2
+    },
+    "melon": {
+      "standalone_tokens": 1,
+      "leading_space_tokens": 2
+    },
+    "grapefruit": {
+      "standalone_tokens": 3,
+      "leading_space_tokens": 2
+    },
+    "tangerine": {
+      "standalone_tokens": 3,
+      "leading_space_tokens": 3
+    },
+    "coconut": {
+      "standalone_tokens": 2,
+      "leading_space_tokens": 1
+    },
+    "plum": {
+      "standalone_tokens": 2,
+      "leading_space_tokens": 1
+    },
+    "apple": {
+      "standalone_tokens": 1,
+      "leading_space_tokens": 1
+    },
+    "mango": {
+      "standalone_tokens": 2,
+      "leading_space_tokens": 1
+    },
+    "lemon": {
+      "standalone_tokens": 2,
+      "leading_space_tokens": 1
+    },
+    "avocado": {
+      "standalone_tokens": 2,
+      "leading_space_tokens": 1
+    },
+    "persimmon": {
+      "standalone_tokens": 3,
+      "leading_space_tokens": 3
+    },
+    "banana": {
+      "standalone_tokens": 1,
+      "leading_space_tokens": 1
+    },
+    "peach": {
+      "standalone_tokens": 2,
+      "leading_space_tokens": 1
+    },
+    "blackberry": {
+      "standalone_tokens": 2,
+      "leading_space_tokens": 2
+    },
+    "pear": {
+      "standalone_tokens": 1,
+      "leading_space_tokens": 1
+    }
+  },
+  "non_single_token_words": [
+    "apricot",
+    "grape",
+    "pomegranate",
+    "cranberry",
+    "pineapple",
+    "papaya",
+    "kiwi",
+    "nectarine",
+    "lychee",
+    "guava",
+    "strawberry",
+    "raspberry",
+    "cherry",
+    "blueberry",
+    "melon",
+    "grapefruit",
+    "tangerine",
+    "coconut",
+    "plum",
+    "mango",
+    "lemon",
+    "avocado",
+    "persimmon",
+    "peach",
+    "blackberry"
+  ]
+}
